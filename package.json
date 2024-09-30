@@ -1,0 +1,13 @@
+{
+  "name": "dino-ei-fangspiel",
+  "version": "1.0.0",
+  "description": "Ein einfaches Dino-Ei Fangspiel",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-packager": "^17.1.2"
+  }
+}

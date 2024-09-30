@@ -1,0 +1,49 @@
+/* Stil für den Button */
+#startButton {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#startButton:hover {
+  background-color: darkgreen;
+}
+
+#playerName {
+  font-size: 20px;
+  padding: 15px;
+  width: 300px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  color: black;
+  background-color: lightblue;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 40px;
+  color: #333;
+}
+
+#startScreen {
+  margin-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 20px;
+}

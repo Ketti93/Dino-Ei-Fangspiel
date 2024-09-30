@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dino Collect</title>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Dino-Ei Fangspiel!</h1>
+
+    <!-- Startbildschirm mit Namenseingabe, Highscore und Punkteliste -->
+    <div id="startScreen">
+      <p id="highscore">Highscore: 0</p>
+      <p id="highscorePlayer">Noch kein Highscore!</p>
+      <label for="playerName">Gib deinen Namen ein: </label>
+      <input type="text" id="playerName" placeholder="Dein Name" />
+      <button id="startButton">Spiel starten</button>
+
+      <!-- Punkteliste -->
+      <h3>Punkte Liste</h3>
+      <ul id="scoreList">
+        <li>Keine Einträge vorhanden</li>
+      </ul>
+    </div>
+
+    <!-- Spielbildschirm mit Timer und Punktestand -->
+    <div id="gameScreen" style="display: none">
+      <p id="timer">Zeit übrig: 60</p>
+      <p id="playerScore">Punkte: 0</p>
+      <canvas id="gameCanvas" width="800" height="600"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
